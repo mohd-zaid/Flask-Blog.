@@ -1,18 +1,35 @@
 {% extends "layout.html" %}
 {% block content %}
+      <div class="progress">
+
+      <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:100%"></div>
+      </div>
    
-        <div class="card">
-            <div class="card-body">
-              <h4 class="card-title">Blog</h4>
-              <p class="card-text">
-                  <p>This is a full feature web Application.</p>
-                  <p>You can register your name email password. </p>
-                  <p>User can create update and delete post.  </p>                
-              </p>
-                          
+            <div class="card">         
+                <div class="card-body">
+                  <h1><a href="{{url_for('main.home')}}" class="card-link text-secondary">Home Page</a></h1>
+                  
+
+                  <h4 class="card-title text-primary">About Blog</h4>
+                  <div class="card text-white">
+                    <p class="card-body text-warning">
+                        
+                        <p class="card bg-primary">This is a full feature web Application.</p>
+                        <p class="card bg-success" >You can register your name email password. </p>
+                        <p class="card bg-info" >You can register your name email password. </p>
+                        <p class="card bg-secondary">You can register your name email password. </p>
+                        <p class="card bg-dark">User can create update and delete post.  </p>                
+                    </p>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:100%"></div>
+                  
+                </div>
+              
+                              
+                </div>
             </div>
-        </div>
-        
+            
 
 
 
